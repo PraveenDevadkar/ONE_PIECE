@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Straw Hat Agent — Login</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+<!-- ══ STORM CANVAS ══ -->
+<canvas id="storm-canvas"></canvas>
+<div id="lightning-flash"></div>
+
+<!-- ══ WHITEBEARD FIGURE ══
+     Put your image path in src below.
+     Remove this comment once working.
+-->
+<div class="wb-figure" id="wb-figure">
+  <img src="images/white.png" alt="Whitebeard">
+</div>
+
+<!-- ══ LOGIN UI ══ -->
+<div class="login-ui">
+
+  <div class="brand-wrap">
+    <div class="brand-skull">☠</div>
+    <div class="brand-lines">
+      <div class="brand-title">STRAW HAT</div>
+      <div class="brand-sub">GRAND LINE PERSONAL AGENT</div>
+    </div>
+  </div>
+
+  <div class="wb-speech">
+    <div class="speech-mark">"</div>
+    <div class="speech-text" id="speech-text">GURARARARA...<br>prove you belong here, <em>son</em></div>
+    <div class="speech-mark closing">"</div>
+  </div>
+
+  <div class="section-divider">
+    <div class="div-line"></div>
+    <div class="div-skull">☠</div>
+    <div class="div-line"></div>
+  </div>
+
+  <div class="voice-auth">
+    <div class="mic-outer" id="mic-outer" onclick="toggleMic()">
+      <div class="mic-ring ring-1"></div>
+      <div class="mic-ring ring-2"></div>
+      <div class="mic-core">🎤</div>
+    </div>
+    <div class="voice-label" id="voice-label">SPEAK YOUR PASSWORD</div>
+    <div class="voice-sub"   id="voice-sub">voice authentication</div>
+  </div>
+
+  <div class="or-row">
+    <div class="or-line"></div>
+    <span class="or-text">or</span>
+    <div class="or-line"></div>
+  </div>
+
+  <button class="board-btn" onclick="enterApp()">
+    <span class="btn-icon">⚓</span>
+    <span class="btn-text">BOARD THE SHIP</span>
+    <span class="btn-arrow">→</span>
+  </button>
+
+  <div class="auth-footer">All 10 crew members standing by</div>
+
+</div>
+
+<script src="../js/login.js"></script>
+</body>
+</html>
