@@ -1,0 +1,50 @@
+/* ── ELECTRON TITLEBAR ── */
+.electron-titlebar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 32px;
+  background: rgba(2, 4, 12, 0.95);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  z-index: 9999;
+  -webkit-app-region: drag;
+}
+.etb-drag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  -webkit-app-region: drag;
+}
+.etb-skull { font-size: 14px; color: #c8900a; }
+.etb-title {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: rgba(255,255,255,0.3);
+}
+.etb-controls {
+  display: flex;
+  gap: 2px;
+  -webkit-app-region: no-drag;
+}
+.etb-controls button {
+  width: 30px; height: 24px;
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.3);
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: all 0.15s;
+}
+.etb-controls button:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+.etb-close:hover {
+  background: #8B1A1A !important;
+  color: #fff !important;
+}
