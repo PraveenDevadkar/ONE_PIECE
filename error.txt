@@ -1,8 +1,10 @@
-PS C:\Users\HP\OneDrive\Desktop\Data_Engineering\straw_hat\frontend> npm start
-npm : The term 'npm' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path 
-was included, verify that the path is correct and try again.
-At line:1 char:1
-+ npm start
-+ ~~~
-    + CategoryInfo          : ObjectNotFound: (npm:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
+PS C:\Users\HP\OneDrive\Desktop\Data_Engineering\straw_hat> npm start
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path C:\Users\HP/package.json
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, open 'C:\Users\HP\package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in: C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-24T15_52_28_591Z-debug-0.log
