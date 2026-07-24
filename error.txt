@@ -1,10 +1,8 @@
-PS C:\Users\HP\OneDrive\Desktop\Data_Engineering\straw_hat> npm start
-npm ERR! code ENOENT
-npm ERR! syscall open
-npm ERR! path C:\Users\HP/package.json
-npm ERR! errno -4058
-npm ERR! enoent ENOENT: no such file or directory, open 'C:\Users\HP\package.json'
-npm ERR! enoent This is related to npm not being able to find a file.
-npm ERR! enoent 
+PS C:\Users\HP\OneDrive\Desktop\Data_Engineering\straw_hat\frontend> npm start
 
-npm ERR! A complete log of this run can be found in: C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-24T15_52_28_591Z-debug-0.log
+> strawhat-agent@1.0.0 start
+> electron .
+
+'electron' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\Users\HP\OneDrive\Desktop\Data_Engineering\straw_hat\frontend> 
