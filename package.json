@@ -1,0 +1,13 @@
+{
+  "name": "strawhat-agent",
+  "version": "1.0.0",
+  "description": "Your personal Straw Hat crew AI agent",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev":   "electron . --inspect"
+  },
+  "dependencies": {
+    "electron": "^31.0.0"
+  }
+}
